@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>18</string>
+					<string>64</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>17</string>
+					<string>63</string>
 					<key>Timestamp</key>
-					<string>724280287.035181</string>
+					<string>776008773.448362</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -37,13 +37,13 @@
 				<string>    
 </string>
 				<key>leading</key>
-				<string>    @IBOutlet weak var progressBar: UIProgressView!
-    
+				<string>        eggTimer.delegate = self
+    }
 </string>
 				<key>trailing</key>
 				<string>    @IBAction func hardnessSelecter(_ sender: UIButton) {
         
-    
+        let hardness = sender.currentTitle!
 </string>
 			</dict>
 			<key>type</key>
